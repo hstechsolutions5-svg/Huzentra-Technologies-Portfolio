@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <!-- Page title, fonts, stylesheet and the small interaction script -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Work & Studio — Huzentra Technologies
+    </title>
+    <meta name="description" content="Huzentra Technologies is an independent technology venture founded by Muhammad Huzaifa, focused on Flutter applications, backend integration and useful digital products.">
+    <meta name="color-scheme" content="dark light">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js">
+    </script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">
+      Skip to content
+    </a>
+    <!-- NAVIGATION: edit these links on both HTML pages -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Huzentra Technologies landing page">
+          <span class="logo-crop">
+            <img src="images/logo.png" alt="Huzentra Technologies" width="889" height="283">
+          </span>
+        </a>
+        <nav class="navigation" id="navigation" aria-label="Main navigation">
+          <a href="home.html" aria-current="page">
+            Home
+          </a>
+          <a href="home.html#projects">
+            Work
+          </a>
+          <a href="home.html#services">
+            Services
+          </a>
+          <a href="home.html#about">
+            About
+          </a>
+          <a href="home.html#insights">
+            Insights
+          </a>
+          <a class="mobile-contact" href="home.html#contact">
+            Start a project
+          </a>
+        </nav>
+        <div class="header-actions">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to light mode" hidden>
+            Light mode
+          </button>
+          <a class="button small header-cta" href="home.html#contact">
+            Let’s talk
+            <span aria-hidden="true">
+              ↗
+            </span>
+          </a>
+          <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Open navigation" hidden>
+            <span>
+            </span>
+            <span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="page-shell" id="main">
+      <!-- HERO: edit your headline and introduction here -->
+      <section class="hero home-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            INDEPENDENT THINKING. HANDS-ON BUILDING.
+          </p>
+          <h1>
+            Useful software.
+            <br>
+            Built
+            <em>
+              with intent.
+            </em>
+          </h1>
+          <p class="hero-description">
+            I’m Muhammad Huzaifa, founder of Huzentra Technologies. My focus is Flutter applications and the connections that make them work.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">
+              Explore the work
+              <span aria-hidden="true">
+                ↘
+              </span>
+            </a>
+            <a class="text-link" href="#about">
+              The person behind it
+              <span aria-hidden="true">
+                →
+              </span>
+            </a>
+          </div>
+          <p class="hero-footnote">
+            <span>
+              Pakistan
+            </span>
+            <span>
+              Flutter · Firebase · Supabase
+            </span>
+          </p>
+        </div>
+        <aside class="work-index" aria-label="Portfolio index">
+          <div class="index-heading">
+            <span>
+              THE WORKBENCH
+            </span>
+            <span>
+              HT / 001–003
+            </span>
+          </div>
+          <p>
+            One idea at a time.
+          </p>
+          <a href="#cv-maker">
+            <span class="index-num">
+              01
+            </span>
+            <span>
+              CV Maker
+              <small>
+                Professional CV creation
+              </small>
+            </span>
+            <span class="index-arrow" aria-hidden="true">
+              ↗
+            </span>
+          </a>
+          <a href="#srt-viewer">
+            <span class="index-num">
+              02
+            </span>
+            <span>
+              SRT File Viewer
+              <small>
+                Subtitle-file viewing
+              </small>
+            </span>
+            <span class="index-arrow" aria-hidden="true">
+              ↗
+            </span>
+          </a>
+          <a href="#edunexus">
+            <span class="index-num">
+              03
+            </span>
+            <span>
+              EduNexus
+              <small>
+                University management
+              </small>
+            </span>
+            <span class="index-arrow" aria-hidden="true">
+              ↗
+            </span>
+          </a>
+          <div class="index-footer">
+            BUILDING TECHNOLOGY.
+            <br>
+            CREATING POSSIBILITIES.
+          </div>
+        </aside>
+      </section>
+      <!-- PROJECTS: edit the three project articles below -->
+      <section class="section work-section" id="projects">
+        <div class="section-top">
+          <p class="eyebrow">
+            01 / SELECTED WORK
+          </p>
+          <p class="aside-label">
+            Small tools. Real use cases.
+          </p>
+        </div>
+        <div class="section-heading">
+          <h2>
+            Different problems.
+            <br>
+            <em>
+              The same care.
+            </em>
+          </h2>
+          <p>
+            From a career document to a subtitle file.
+            <br>
+            A closer look at the work behind Huzentra.
+          </p>
+        </div>
+        <div class="project-list">
+          <article class="project-row" id="cv-maker">
+            <div class="project-index">
+              01
+            </div>
+            <div class="project-title">
+              <span class="tag">
+                Productivity
+              </span>
+              <h3>
+                CV Maker
+              </h3>
+            </div>
+            <div class="project-description">
+              <p>
+                A focused place to create a professional CV.
+              </p>
+              <details class="project-details">
+                <summary>
+                  Project overview
+                  <span aria-hidden="true">
+                    +
+                  </span>
+                </summary>
+                <div>
+                  <p>
+                    A CV brings education, skills and experience into one document. CV Maker is a portfolio project centered on professional CV creation.
+                  </p>
+                  <p class="project-meta">
+                    Focus: Professional CV creation
+                  </p>
+                  <p class="project-meta">
+                    Screenshots, technical notes and release details will be added as project documentation is prepared.
+                  </p>
+                </div>
+              </details>
+            </div>
+            <div class="project-notation" aria-hidden="true">
+              .cv
+            </div>
+          </article>
+          <article class="project-row" id="srt-viewer">
+            <div class="project-index">
+              02
+            </div>
+            <div class="project-title">
+              <span class="tag">
+                Utility
+              </span>
+              <h3>
+                SRT File Viewer
+              </h3>
+            </div>
+            <div class="project-description">
+              <p>
+                Making subtitle files easier to work with.
+              </p>
+              <details class="project-details">
+                <summary>
+                  Project overview
+                  <span aria-hidden="true">
+                    +
+                  </span>
+                </summary>
+                <div>
+                  <p>
+                    SRT File Viewer is a utility project for viewing subtitle files. Its subject is simple: the text and timing that sit behind a subtitle track.
+                  </p>
+                  <p class="project-meta">
+                    Focus: Subtitle-file viewing
+                  </p>
+                  <p class="project-meta">
+                    Screenshots, technical notes and release details will be added as project documentation is prepared.
+                  </p>
+                </div>
+              </details>
+            </div>
+            <div class="project-notation" aria-hidden="true">
+              .srt
+            </div>
+          </article>
+          <article class="project-row" id="edunexus">
+            <div class="project-index">
+              03
+            </div>
+            <div class="project-title">
+              <span class="tag">
+                Education
+              </span>
+              <h3>
+                EduNexus
+              </h3>
+            </div>
+            <div class="project-description">
+              <p>
+                Bringing university workflows into one system.
+              </p>
+              <details class="project-details">
+                <summary>
+                  Project overview
+                  <span aria-hidden="true">
+                    +
+                  </span>
+                </summary>
+                <div>
+                  <p>
+                    EduNexus is a university management system project. It explores digital workflows in an academic setting.
+                  </p>
+                  <p class="project-meta">
+                    Focus: University management
+                  </p>
+                  <p class="project-meta">
+                    Screenshots, technical notes and release details will be added as project documentation is prepared.
+                  </p>
+                </div>
+              </details>
+            </div>
+            <div class="project-notation" aria-hidden="true">
+              edu.
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- SERVICES -->
+      <section class="section services-section" id="services">
+        <div class="services-intro">
+          <p class="eyebrow">
+            02 / HOW I CAN HELP
+          </p>
+          <h2>
+            Build something new.
+            <br>
+            <em>
+              Make something better.
+            </em>
+          </h2>
+          <p>
+            Focused development support, from your first screen to the services behind it.
+          </p>
+          <div class="toolkit">
+            <span>
+              Flutter
+            </span>
+            <span>
+              Firebase
+            </span>
+            <span>
+              Supabase
+            </span>
+            <span>
+              REST APIs
+            </span>
+          </div>
+        </div>
+        <div class="service-list">
+          <details open>
+            <summary>
+              <span>
+                01
+              </span>
+              <h3>
+                Flutter applications
+              </h3>
+              <span class="detail-plus" aria-hidden="true">
+                +
+              </span>
+            </summary>
+            <div>
+              <p>
+                Cross-platform app development with responsive interfaces and clear, usable flows.
+              </p>
+              <ul>
+                <li>
+                  App screens & navigation
+                </li>
+                <li>
+                  Responsive UI implementation
+                </li>
+                <li>
+                  Authentication flows
+                </li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span>
+                02
+              </span>
+              <h3>
+                Connected backends
+              </h3>
+              <span class="detail-plus" aria-hidden="true">
+                +
+              </span>
+            </summary>
+            <div>
+              <p>
+                Connect the interface to the information it needs.
+              </p>
+              <ul>
+                <li>
+                  Firebase & Supabase integration
+                </li>
+                <li>
+                  Database connections
+                </li>
+                <li>
+                  Third-party API integration
+                </li>
+              </ul>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span>
+                03
+              </span>
+              <h3>
+                App improvements
+              </h3>
+              <span class="detail-plus" aria-hidden="true">
+                +
+              </span>
+            </summary>
+            <div>
+              <p>
+                Keep an existing product moving forward with focused improvements.
+              </p>
+              <ul>
+                <li>
+                  UI refinements
+                </li>
+                <li>
+                  Feature implementation
+                </li>
+                <li>
+                  Maintenance & fixes
+                </li>
+              </ul>
+            </div>
+          </details>
+        </div>
+        <p class="future-note">
+          EXPLORING NEXT
+          <span>
+            Web development, UI/UX design, AI & emerging technologies.
+          </span>
+        </p>
+      </section>
+      <!-- ABOUT / FOUNDER -->
+      <section class="section about-section" id="about">
+        <div>
+          <p class="eyebrow">
+            03 / THE PERSON BEHIND THE WORK
+          </p>
+          <h2>
+            A small beginning.
+            <br>
+            <em>
+              A deliberate direction.
+            </em>
+          </h2>
+        </div>
+        <div class="founder-story">
+          <p class="founder-lead">
+            Huzentra starts with a simple idea: technology should be useful to the people who use it.
+          </p>
+          <p>
+            I’m Muhammad Huzaifa. I founded Huzentra Technologies as an independent technology venture, with Flutter app development as the starting point.
+          </p>
+          <p>
+            The aim is to keep building, learning from each project, and expanding into new areas with care. The work here reflects that journey—from personal productivity tools to academic systems.
+          </p>
+          <div class="founder-signoff">
+            <strong>
+              Muhammad Huzaifa
+            </strong>
+            <span>
+              Founder / Huzentra Technologies
+            </span>
+            <span>
+              Pakistan
+            </span>
+          </div>
+        </div>
+      </section>
+      <!-- PROCESS -->
+      <section class="section process-section" id="process">
+        <p class="eyebrow">
+          04 / WORKING TOGETHER
+        </p>
+        <div class="section-heading">
+          <h2>
+            Clarity at
+            <br>
+            <em>
+              every step.
+            </em>
+          </h2>
+          <p>
+            A practical process that keeps the problem, the work and the next decision in view.
+          </p>
+        </div>
+        <ol class="process-list">
+          <li>
+            <span class="step-number">
+              01
+            </span>
+            <h3>
+              Understand
+            </h3>
+            <p>
+              Define who it’s for, what it needs to do, and what matters most.
+            </p>
+            <small>
+              OUTCOME / A SHARED BRIEF
+            </small>
+          </li>
+          <li>
+            <span class="step-number">
+              02
+            </span>
+            <h3>
+              Shape
+            </h3>
+            <p>
+              Work through the screens and flows before moving into development.
+            </p>
+            <small>
+              OUTCOME / A CLEAR DIRECTION
+            </small>
+          </li>
+          <li>
+            <span class="step-number">
+              03
+            </span>
+            <h3>
+              Develop
+            </h3>
+            <p>
+              Build in focused stages, connect the pieces, and review the result.
+            </p>
+            <small>
+              OUTCOME / A WORKING PRODUCT
+            </small>
+          </li>
+          <li>
+            <span class="step-number">
+              04
+            </span>
+            <h3>
+              Refine
+            </h3>
+            <p>
+              Check the experience, resolve issues, and plan the next improvements.
+            </p>
+            <small>
+              OUTCOME / A BETTER EXPERIENCE
+            </small>
+          </li>
+        </ol>
+      </section>
+      <!-- INSIGHTS -->
+      <section class="section insights-section" id="insights">
+        <div>
+          <p class="eyebrow">
+            05 / NOTES FROM THE BUILD
+          </p>
+          <h2>
+            Learning is
+            <br>
+            <em>
+              part of the work.
+            </em>
+          </h2>
+        </div>
+        <div>
+          <p>
+            Development lessons, Flutter notes and experiments with new tools. The first articles are in preparation.
+          </p>
+          <div class="topic-list">
+            <span>
+              Flutter development
+            </span>
+            <span>
+              Product decisions
+            </span>
+            <span>
+              Technology experiments
+            </span>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT: downloads a brief, does not send an email -->
+      <section class="section contact-section" id="contact">
+        <div class="contact-intro">
+          <p class="eyebrow">
+            06 / YOUR NEXT PROJECT
+          </p>
+          <h2>
+            Let’s start
+            <br>
+            <em>
+              with the problem.
+            </em>
+          </h2>
+          <p>
+            What do you want to build or improve? Put the essentials in a brief you can keep and share.
+          </p>
+          <div class="contact-note">
+            <strong>
+              A useful first step
+            </strong>
+            <p>
+              Your brief is downloaded to your device. Online inquiries will be available once Huzentra’s business email is finalized.
+            </p>
+          </div>
+        </div>
+        <form id="brief-form">
+          <noscript>
+            <p class="form-fallback">
+              Enable JavaScript to download a brief locally. This form does not send inquiries.
+            </p>
+          </noscript>
+          <fieldset disabled>
+            <div class="form-row">
+              <div>
+                <label for="name">
+                  Your name
+                </label>
+                <input id="name" name="name" autocomplete="name" required maxlength="100" placeholder="Your full name">
+              </div>
+              <div>
+                <label for="email">
+                  Email address
+                </label>
+                <input id="email" name="email" type="email" autocomplete="email" required maxlength="200" placeholder="you@example.com">
+              </div>
+            </div>
+            <label for="service">
+              What do you need help with?
+            </label>
+            <select id="service" name="service">
+              <option>
+                New Flutter application
+              </option>
+              <option>
+                Backend or API integration
+              </option>
+              <option>
+                Improving an existing app
+              </option>
+              <option>
+                Exploring an idea
+              </option>
+            </select>
+            <label for="details">
+              Tell me about the idea
+            </label>
+            <textarea id="details" name="details" required maxlength="5000" rows="5" placeholder="Who is it for? What should it help them do?">
+            </textarea>
+            <div class="form-bottom">
+              <span>
+                Nothing is sent or stored online.
+              </span>
+              <button type="submit" class="button">
+                Download brief
+                <span aria-hidden="true">
+                  ↓
+                </span>
+              </button>
+            </div>
+            <p class="form-status" id="form-status" role="status" aria-live="polite">
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="brand" href="index.html" aria-label="Huzentra Technologies landing page">
+          <span class="logo-crop">
+            <img src="images/logo.png" alt="Huzentra Technologies" width="889" height="283">
+          </span>
+        </a>
+        <p>
+          Building Technology.
+          <br>
+          Creating Possibilities.
+        </p>
+        <nav aria-label="Footer navigation">
+          <a href="index.html">
+            Landing
+          </a>
+          <a href="home.html">
+            Home
+          </a>
+          <a href="home.html#contact">
+            Contact
+          </a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>
+          © 2026 Huzentra Technologies
+        </span>
+        <span>
+          Independent. Purposeful. Built in Pakistan.
+        </span>
+        <a href="#top">
+          Back to top ↑
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
+
